@@ -1,0 +1,17 @@
+= Webapp with Springboot and React
+
+== Build
+
+[source, bash]
+----
+mvn clean install
+----
+
+== Launch the webapp
+
+[source, bash]
+----
+java -jar backend/target/backend-1.0.0-SNAPSHOT.jar
+----
+
+Webapp is available at http://localhost:8080

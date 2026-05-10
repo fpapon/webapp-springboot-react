@@ -1,0 +1,75 @@
+.accueil {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.accueil-header {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 1rem;
+}
+
+.accueil-header h1 {
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.accueil-header p {
+  color: #64748b;
+  margin: 0;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.commandes-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.commandes-table thead {
+  background: #2563eb;
+  color: white;
+}
+
+.commandes-table th,
+.commandes-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.commandes-table tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.2s;
+}
+
+.commandes-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.statut {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.statut-livree { background: #d1fae5; color: #065f46; }
+.statut-en-cours { background: #dbeafe; color: #1e40af; }
+.statut-validee { background: #ede9fe; color: #5b21b6; }
+.statut-en-attente { background: #fef3c7; color: #92400e; }
+
+.loader, .error {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #dc2626;
+}
